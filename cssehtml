@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mizera</title>
+    <style type="text/CSS">
+        #header{
+            background-color: rgb(0, 0, 0);
+            color: azure;
+            padding: 9px;
+            text-align: center;
+        }
+
+        #menu{
+            float: left;
+            width: 30%;
+            height: 390px;
+            background-color: antiquewhite;
+        }
+
+        #main{
+            margin-left: 20%;
+            height: 390px;
+            background-color: beige;
+        }
+
+        #footer{
+            background-color: black;
+            color: whitesmoke;
+            padding: 1px;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Minha página</h1>
+    </div>
+    
+    <div id="menu">
+        <ul>
+            <li><a href="#">Menu Item 1</a></li>
+            <li><a href="#">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+            <li><a href="#">Menu Item 4</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Conteúdo Principal</h2>
+        <p>Aqui vai o conteúdo principal da página.</p>
+    </div>
+
+    <div id="footer">
+        <p>Rodapé da página</p>
+    </div>
+</body>
+</html>
